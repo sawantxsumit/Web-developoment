@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Business Registration Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .form-container {
+      background: powderblue;
+      padding: 30px;
+      border-radius: 10px;
+      max-width: 600px;
+      width: 100%;
+      box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      text-align: center;
+      color: #003366;
+    }
+
+    p {
+      text-align: center;
+      font-size: 14px;
+      color: #666;
+    }
+
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+      font-size: 14px;
+      color: #333;
+    }
+
+    input, select, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 14px;
+    }
+
+    .row {
+      display: flex;
+      gap: 10px;
+    }
+
+    .row input {
+      flex: 1;
+    }
+
+    textarea {
+      height: 80px;
+      resize: none;
+    }
+
+    button {
+      width: 100%;
+      padding: 12px;
+      background: #003366;
+      color: #fff;
+      font-size: 16px;
+      border: none;
+      border-radius: 6px;
+      margin-top: 20px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background: #0055aa;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="form-container">
+    <h2>Business Registration Form</h2>
+    <p>If you want to register your business, please fill in the form below.</p>
+    <p >Please provide all required deatils to register your business with us</p>
+
+    <form>
+      <label>Business Owner<span style="color:red">*</span></label>
+      <div class="row">
+        <input type="text" placeholder="First" required>
+        <input type="text" placeholder="Last" required>
+      </div>
+
+      <label>Business Name<span style="color:red">*</span></label>
+      <input type="text" required>
+
+      <label>Contact Number<span style="color:red">*</span></label>
+      <input type="tel" placeholder="## ### #######" required>
+
+      <label>Email<span style="color:red">*</span></label>
+      <input type="email" required>
+
+      <label>Address<span style="color:red">*</span></label>
+      <input type="text" placeholder="Street Address" required>
+      <input type="text" placeholder="Street Address Line 2">
+      <div class="row">
+        <input type="text" placeholder="City" required>
+        <input type="text" placeholder="Region" required>
+      </div>
+      <div class="row">
+        <input type="text" placeholder="Postal / Zip Code" required>
+        <select required>
+          <option value="">Country</option>
+          <option>India</option>
+          <option>USA</option>
+          <option>UK</option>
+          <option>Canada</option>
+        </select>
+      </div>
+
+      <label>Type of Business<span style="color:red">*</span></label>
+      <select required>
+        <option value="">Please Select</option>
+        <option>Retail</option>
+        <option>IT Services</option>
+        <option>Manufacturing</option>
+        <option>Consulting</option>
+        <option>Other</option>
+      </select>
+
+      <label>Message</label>
+      <textarea placeholder="Enter your message"></textarea>
+
+      <button type="submit">REGISTER BUSINESS</button>
+    </form>
+  </div>
+
+</body>
+</html>
