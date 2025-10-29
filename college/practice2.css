@@ -1,0 +1,43 @@
+body{
+    background-color: aqua;
+
+}
+
+/* class is represented by . and id is represented by # */
+
+.container{
+    height: 400px;
+    width: 400px;
+    text-align:center;
+    background-color: aliceblue;
+    margin-left: 20%;
+    border-radius: 30px;
+    border: 2px solid rebeccapurple;
+    padding: 2%
+}
+.fname,  .lname{
+    background-color:beige;
+    height: 30px;
+    width: 150px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.input , .inp{
+    border-radius:5px;
+    margin-top: 10px;
+    text-align:left;
+    padding: 4px;    
+}
+
+.gender{
+    margin-top: 10px;
+    font-size: large;
+}
+
+.button{
+    margin-top: 20px;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    background-color:darkorange;
+}

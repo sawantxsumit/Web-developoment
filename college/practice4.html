@@ -1,0 +1,59 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            border-radius: 100px ;
+            background-color: brown;
+            height: 100px;
+            width: 100px;
+            animation-name: myanimation;
+            animation-duration:4s ;
+           position: relative;
+           animation-iteration-count: infinite;
+           animation-timing-function: linear;
+        }
+            @keyframes myanimation {
+            0%   { left: 0px; top: 0px; }
+            20%  { left: 100px; top: 100px; }
+            40%  { left: 200px; top: 0px; }
+            60%  { left: 300px; top: 100px; }
+            80%  { left: 400px; top: 0px; }
+            100% { left: 0px; top: 0px; }
+            }
+
+        /*
+        @keyframes myanimation {
+  0%   { left: 0px; top: 200px; }
+  33%  { left: 200px; top: 0px; }
+  66%  { left: 400px; top: 200px; }
+  100% { left: 0px; top: 200px; }
+}
+
+        
+        @keyframes myanimation {
+            0%   { left: 0px; top: 0px; }
+            25%  { left: 150px; top: 0px; }
+            50%  { left: 300px; top: 150px; }
+            75%  { left: 150px; top: 300px; }
+            100% { left: 0px; top: 0px; }
+}
+
+        @keyframes myanimation {
+            0%{background-color: blue; left: 0px;top: 0px;}
+            25%{background-color: black; left: 300px;top: 0px;}
+            50%{background-color:violet; left: 300px;top: 300px;}
+            75%{background-color: yellow; left: 0px;top: 300px;}
+            100%{background-color: pink; left: 0px;top: 0px;}
+            
+        }
+            */
+    </style>
+</head>
+<body>
+    <div></div>
+    <div></div>
+</body>
+</html>
