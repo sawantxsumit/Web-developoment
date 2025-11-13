@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div{
+        background-color: red;
+        border-radius: 50px;
+        height: 100px;
+        width: 100px;
+        animation-name: redball;
+        animation-duration: 2s;
+        position: relative;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+    @keyframes redball{
+        0% {left: 0px;top: 0px;}
+        20% {left: 100px;top: 200px;}
+        40% {left: 200px;top: 00px;}
+        60% {left: 100px;top: 0px;}
+        80% {left: 400px;top: 200px;}
+        100% {left: 0px;top: 0px;}
+    }
+</style>
+<body>
+    <div></div>
+</body>
+</html>
