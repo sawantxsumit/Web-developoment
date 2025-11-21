@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding='UTF-8' ?>
+<!DOCTYPE Address SYSTEM 'ayush.dtd' >
+
+<Address>
+    <Name>shashank</Name>
+    <company>IIMT</company>
+    <phone>37894764934</phone>
+</Address>
+<!-- <!ELEMENT Name(#PCDATA)>
+<!ELEMENT company(#PCDATA)>
+<!ELEMENT phone(#PCDATA)> -->
