@@ -4,7 +4,7 @@
 <!ELEMENT company(#PCDATA)>
 <!ELEMENT phone(#PCDATA)>
 <Address>
-    <Name></Name>
-    <company></company>
-    <phone></phone>
+    <Name>shashank</Name>
+    <company>IIMT</company>
+    <phone>37894764934</phone>
 </Address>
