@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding='UTF-8' ?>
+<bookstore xmlns:tech='www.google.com' xmlns:h='www.google.com'  xmlns:s='www.google.com'  >
+     <tech:book>
+        <tech:name>webtech</tech:name>
+        <tech:price>1000</tech:price>
+        <tech:writer>kunal</tech:writer>
+     </tech:book>
+     <h:book>
+        <h:name>html</h:name>
+        <h:price>100</h:price>
+        <h:writer>sonal</h:writer>
+     </h:book>
+      <s:book>
+        <s:name>css</s:name>
+        <s:price>140</s:price>
+        <s:writer>sujal</s:writer>
+     </s:book>
+</bookstore>
+    

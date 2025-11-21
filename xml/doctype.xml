@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding='UTF-8' ?>
+<!DOCTYPE Address [Name , company , phone] >
+<!ELEMENT Name(#PCDATA)>
+<!ELEMENT company(#PCDATA)>
+<!ELEMENT phone(#PCDATA)>
+<Address>
+    <Name></Name>
+    <company></company>
+    <phone></phone>
+</Address>
