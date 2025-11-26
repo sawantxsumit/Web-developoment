@@ -12,8 +12,14 @@
         document.write('Hello javascript')
         window.alert('Done')
     </script> -->
-    <p id="A" style="display: none;">sumit</p>
+    <p id="A"">sumit</p>
     <!-- <button type="button" onclick="document.getElementById('A').style.fontSize='40px'" ondblclick="document.getElementById('A').getHTML('changed')">click</button> -->
-   <button type="button" onclick= "document.getElementById('A').style.display='block'">click</button> 
+   <!-- <button type="button" onclick= "document.getElementById('A').style.display='block'">click</button>  -->
+   <button type="button" onclick="myFunction()">click</button> 
+   <script>
+      function myFunction(){
+        document.getElementById('A').innerHTML='Hello jssssss'
+      }
+   </script>
 </body>
 </html>
