@@ -1,0 +1,37 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function checkform(){
+            var name= document.getElementById("name").value;
+            var comment= document.getElementById("comment").value;
+
+            if (name==="" || comment==="") {
+                alert("Fill the empty box first");
+                return false;
+
+            }
+            return true;
+        }
+    </script>
+</head>
+<body>
+    <div>
+        <a href="https://www.google.com" target="_blank">
+  Open Google
+</a>
+
+        <form onsubmit="return checkform()">
+            <label >Name :</label>
+            <input type="text" id="name" >
+    
+            <label >Comment:</label>
+            <textarea id="comment" ></textarea>
+            <input type="submit" value="Submit">
+            
+        </form>
+    </div>
+</body>
+</html>
